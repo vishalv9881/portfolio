@@ -591,6 +591,36 @@ textarea { min-height: 150px; resize: none; }
     .hero-description { font-size: clamp(1rem, 2vw, 1.1rem); }
     .btn-primary, .btn-secondary { padding: 0.8rem 1.5rem; font-size: 0.95rem; }
 }
+/* Android typical screen width fix (max-width: 480px) */
+@media (max-width: 480px) {
+    .navbar { width: 98vw; padding: 0.4rem; border-radius: 18px; top: 0.5rem; }
+    .nav-links { flex-direction: column; gap: 0.4rem; align-items: center; }
+    .hero { flex-direction: column; text-align: center; padding: 1.2rem 2vw; }
+    .hero-title { font-size: 1.5rem; }
+    .hero-subtitle { font-size: 1rem; }
+    .hero-content { max-width: 100%; }
+    .hero-image { margin-top: 1rem; width: 90%; height: auto; }
+    .profile-container { width: 160px; height: 160px; }
+    .cta-buttons { flex-direction: column; gap: 0.7rem; }
+    .about { grid-template-columns: 1fr; gap: 1rem; padding: 1rem 2vw; }
+    .skills-grid { grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 0.5rem; }
+    .projects { padding: 1rem 2vw; }
+    .projects-grid { grid-template-columns: 1fr; gap: 0.7rem; }
+    .project-card { min-height: 220px; }
+    .project-image { height: 80px; }
+    .testimonials { padding: 1rem 2vw; }
+    .testimonials-grid { grid-template-columns: 1fr; gap: 0.7rem; }
+    .contact { padding: 1rem 2vw; }
+    .contact-form { padding: 1rem; }
+    .form-group input, .form-group textarea { font-size: 0.9rem; padding: 0.6rem; }
+    .contact-form button, .contact-form input[type="submit"] { width: 100%; padding: 0.7rem; }
+    .form-grid, .contact-info { grid-template-columns: 1fr; gap: 0.5rem; }
+    .footer-main { grid-template-columns: 1fr; gap: 0.5rem; }
+    .footer-bottom { flex-direction: column; align-items: center; gap: 0.3rem; }
+    .social-links { display: none; }
+    .scroll-indicator { width: 32px; height: 32px; font-size: 1rem; }
+    .floating-tech { font-size: 0.65rem; padding: 0.3rem 0.5rem; }
+}
 @media (max-width: 900px) {
     .navbar { padding: 0.6rem 1rem; top: 1rem; }
     .nav-links { gap: 1rem; }
