@@ -3,202 +3,291 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Verma - Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="port.css">
-    <title>VISHAL VERMA - PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- HEADER SECTION -->
-    <header class="header">
-        <a href="#home" class="logo">Vishal Verma</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <div class="animated-bg"></div>
 
-    <!-- Home Section -->
-    <section id="home" class="home">
-        <div class="home-img">
-            <img src="images/vishal.jpg" alt="Profile Image">
-        </div>
-        <div class="home-content">
-            <h3>Hello, Myself</h3>
-            <h1>Vishal Verma</h1>
-            <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>👋 Hi, I'm Vishal Verma.
-               A passionate Full Stack Developer skilled in HTML, CSS, JavaScript, React, Core Java, Advance Java ,Collection Framework,servlate,JDBC,JSP,Spring framwork, Spring Boot ,JWT Authentication,Cloudnary handling,My MySQL.
-               I love building modern, responsive websites and learning new technologies.</p>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/vishalv9881"><i class='bx bxl-github'></i></a>
-                <a href="https://www.facebook.com/vishal.verma.607352"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Social Links -->
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/vishal-verma-50463928b/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/vishalv9881" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+        <a href="https://www.facebook.com/vishal.verma.607352" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+        <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Vishal Verma</h1>
+            <p class="hero-subtitle">Java Full Stack Developer</p>
+            <p class="hero-description">
+                Passionate Full Stack Developer specializing in Java, Spring Boot, React, and modern web technologies. 
+                I craft scalable, responsive applications that deliver exceptional user experiences.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-secondary">Get In Touch</a>
             </div>
-            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="hero-image">
+            <div class="profile-container">
+                <img src="images/image.jpg" alt="Vishal Verma" class="profile-image">
+                <div class="floating-elements">
+                    <div class="floating-tech tech-1">Spring Boot</div>
+                    <div class="floating-tech tech-2">React.js</div>
+                    <div class="floating-tech tech-3">MySQL</div>
+                    <div class="floating-tech tech-4">Java</div>
+                </div>
+            </div>
         </div>
     </section>
-    
+
     <!-- About Section -->
     <section id="about" class="about">
         <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>I'm a <span>Java FullStack Developer</span></h3>
-            <p>Hello, I'm Vishal Verma. I am currently working in JPR Technosoft Pvt. Ltd. as a Java Backend Developer.
-               I am a BCA graduate and an enthusiastic Java Backend Developer.
-               I have knowledge of backend technologies like Core Java,Advance Java,Java 8 Features,Collection FrameWork, JSP,JDBC, Spring, Spring Boot, and MySQL.
-               I also have basic knowledge of frontend technologies such as HTML, CSS, JavaScript, Bootstrap, and React.js. 
-               My goal is to become an expert Java Full Stack Developer and work on real-world projects.</p>
-            <a href="https://www.linkedin.com/in/" class="btn">Know more by linkedin</a>
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Vishal Verma, currently working at JPR Technosoft Pvt. Ltd. as a Java Backend Developer. 
+                I'm a BCA graduate with a passion for creating innovative web solutions.
+            </p>
+            <p>
+                My expertise spans across backend technologies like Core Java, Spring Boot, MySQL, and frontend 
+                technologies including React.js, HTML5, CSS3, and modern JavaScript. I'm dedicated to continuous 
+                learning and staying updated with the latest industry trends.
+            </p>
+            <a href="https://www.linkedin.com/in/vishal-verma-50463928b/" class="btn-primary">Connect on LinkedIn</a>
         </div>
-        <div class="about-img">
-            <img src="images/image.jpg" alt="About Image">
-        </div>
-    </section>
-    
-        <!-- Services Section -->
-    <section id="services" class="services">
-        <h2 class="heading">My <span>Services</span></h2>
-        <div class="services-container">
-            <div class="services-box">
-                <i class='bx bx-code'></i>
-                <h3>Web Development</h3>
-                <p>I offer modern and responsive website design services using HTML, CSS,Bootstrap ,javascript,React js . 
-                   I create clean and attractive user interfaces that work perfectly on all devices.
-                   I develop frontend applications using JavaScript and React to make websites interactive and dynamic. 
-                   On the backend side, I build secure and functional web applications using Java, Spring Boot, and MySQL. 
-                   Along with development, I also help in fixing bugs and improving the performance of existing websites and web apps.</p>
-                <a href="#" class="btn">Read More</a>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <i class='bx bxl-java'></i>
+                <p>Java</p>
+            </div>
+            <div class="skill-item">
+                <i class='bx bx-code-alt'></i>
+                <p>Spring Boot</p>
+            </div>
+            <div class="skill-item">
+                <i class='bx bxl-react'></i>
+                <p>React.js</p>
+            </div>
+            <div class="skill-item">
+                <i class='bx bx-data'></i>
+                <p>MySQL</p>
+            </div>
+            <div class="skill-item">
+                <i class='bx bxl-javascript'></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <i class='bx bxl-html5'></i>
+                <p>HTML5</p>
+            </div>
+            <div class="skill-item">
+                <i class='bx bxl-css3'></i>
+                <p>CSS3</p>
+            </div>
+            <div class="skill-item">
+                <i class='bx bxl-git'></i>
+                <p>Git</p>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <sect id="projects" class="projects">
-        <h2 class="heading">My <span>Projects</span></h2>
-    </br>
-        <div class="projects-container">
-
-            <!-- LMS Project -->
-            <div class="project-box">
-                <img src="images/lms.png" alt="Learning Management System" >
-                <div class="project-content">
-                    <h3>Learning Management System (LMS)</h3>
-                    <p>
-                        A microservices-based LMS built using 
-                        <b>Spring Boot, React Native (Expo), MySQL, API Gateway, Eureka</b>.  
-                        Features: Course management, enrollment, JWT authentication, subscriptions, notifications.
-                    </p>
-                    <a href="https://github.com/vishalv9881" class="btn">🔗 GitHub Repo</a>
-                </div>
-            </div>
-
-            <!-- Food Delivery Project -->
-            <div class="project-box">
-                <img src="images/food.jpg" alt="Food Delivery Management System">
-                <div class="project-content">
-                    <h3>Food Delivery Management System</h3>
-                    <p>
-                        A scalable platform built with 
-                        <b>Spring Boot, MySQL, React.js,</b>.  
-                        Includes user, vendor, and admin roles with real-time tracking and multi-channel notifications.
-                    </p>
-                    <a href="https://github.com/vishalv9881" class="btn">🔗 GitHub Repo</a>
-                </div>
-            </div>
-
+    <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <!-- Project 1 -->
+<div class="project-card">
+    <div class="project-image">
+        <img src="images/food.png" alt="Food Delivery System">
+    </div>
+    <div class="project-content">
+        <h3>Food Delivery Management System</h3>
+        <p>A full-stack app for local food ordering with vendor filtering and live order tracking.</p>
+        <div class="tech-stack">
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">React.js</span>
         </div>
-    </section>
+        <a href="https://github.com/vishalv9881" target="_blank" class="btn-github">
+            <i class='bx bxl-github'></i> View on GitHub
+        </a>
+    </div>
+</div>
 
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <div class="testimonials-box">
-            <h2 class="heading">Testimonials</h2>
-
-            <div class="wrapper">
-                <div class="testimonial-item">
-                    <img src="images/amit.jpg" alt="Mohit Singh">
-                    <h2>Mohit Singh</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                    </div>
-                    <p>"Vishal Verma is a dedicated and skilled Java FullStack developer. 
-                       He helped us complete our website project on time with great attention to detail."
-                       – Aman Patel, Project Partner</p>
-                </div>
-                <div class="testimonial-item">
-                    <img src="images/yash.jpg" alt="Yash Mishra">
-                    <h2>Yash Mishra</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                    </div>
-                    <p>"Vishal Verma has a great understanding of both frontend and backend technologies. 
-                       His problem-solving skills are impressive."
-                       – Anuj Mishra, College Mentor</p>
-                </div>
-                <div class="testimonial-item">
-                    <img src="images/hardik.jpg" alt="Hardik">
-                    <h2>Hardik</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
-                    </div>
-                    <p>"I really liked working with Vishal. 
-                       He is focused, communicates well, and always delivers clean code."
-                       – Ajay Patel, Team Member</p>
-                </div>
-            </div>
+<!-- Project 2 -->
+<div class="project-card">
+    <div class="project-image">
+        <img src="images/lms.png" alt="Learning Management System">
+    </div>
+    <div class="project-content">
+        <h3>Learning Management System</h3>
+        <p>Microservices-based LMS with course, lesson, enrollment, and subscription modules.</p>
+        <div class="tech-stack">
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">React js</span>
+            <span class="tech-tag">MySQL</span>
         </div>
-    </section>
+        <a href="https://github.com/vishalv9881" target="_blank" class="btn-github">
+            <i class='bx bxl-github'></i> View on GitHub
+        </a>
+    </div>
+</div>
 
-    <!-- Contact Section -->
+    </div>
+</section>
+
+    <!-- Enhanced Contact Section -->
     <section id="contact" class="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <input type="text" name="name" placeholder="Full Name">
-                <input type="email" name="email" placeholder="Email Address">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Let's Work Together</h2>
+                <p class="contact-subtitle">
+                    Have a project in mind? I'd love to hear about it. Drop me a message and let's create something amazing together.
+                </p>
             </div>
-            <div class="input-box">
-                <input type="number" name="number" placeholder="Phone Number">
-                <input type="text" name="subject" placeholder="Email Subject">
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <input type="text" name="fullName" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                </div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+
+            <!-- Contact Info Cards -->
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class='bx bx-envelope'></i>
+                    <h4>Email</h4>
+                    <p>vishalv6391@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class='bx bx-phone'></i>
+                    <h4>Phone</h4>
+                    <p>+91 6391688206</p>
+                </div>
+                <div class="contact-card">
+                    <i class='bx bx-map'></i>
+                    <h4>Location</h4>
+                    <p>Noida Uttar Pradesh</p>
+                </div>
             </div>
-            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
+        </div>
     </section>
 
-    <!-- Footer Section -->
+    <!-- Enhanced Footer -->
     <footer class="footer">
-        <div class="social">
-            <a href="https://www.linkedin.com/in/vishal-verma-50463928b/"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/vishalv9881"><i class='bx bxl-github'></i></a>
-            <a href="https://www.facebook.com/vishal.verma.607352"><i class='bx bxl-facebook'></i></a>
-            <a href="#"><i class='bx bxl-instagram'></i></a>
+        <div class="footer-content">
+            <div class="footer-main">
+                <!-- About Section -->
+                <div class="footer-section footer-about">
+                    <h3>Vishal Verma</h3>
+                    <p>
+                        Passionate Java Full Stack Developer creating scalable,Aresponsive applications 
+                        that deliver exceptional user experiences. Always excited to take on new challenges 
+                        and collaborate on innovative projects.
+                    </p>
+                    <p class="signature">Let's build something great together!</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Full Stack Development</a></li>
+                        <li><a href="#">Backend Development</a></li>
+                        <li><a href="#">React Development</a></li>
+                        <li><a href="#">API Development</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact & Social -->
+                <div class="footer-section">
+                    <h3>Get In Touch</h3>
+                    <div class="footer-contact">
+                        <p><i class='bx bx-envelope'></i> vishalv6391@gmail.com</p>
+                        <p><i class='bx bx-phone'></i> +91 639 168 8206</p>
+                        <p><i class='bx bx-map'></i> Noida India</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/vishal-verma-50463928b/" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="https://github.com/vishalv9881" aria-label="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        <a href="https://www.facebook.com/vishal.verma.607352" aria-label="Facebook">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Vishal Verma. All rights reserved.</p>
+                </div>
+                <div class="made-with-love">
+                    <span>Made with</span>
+                    <span class="heart">❤️</span>
+                    <span>by Vishal</span>
+                </div>
+            </div>
         </div>
-        <p class="copyright">
-            © Vishal Verma - All Rights Reserved
-        </p>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Scroll to Top Button -->
+    <div class="scroll-indicator" id="scrollTop">
+        <i class='bx bx-up-arrow-alt'></i>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
