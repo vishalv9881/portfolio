@@ -1,6 +1,6 @@
 import { Award, BookOpen, Briefcase, ChevronDown, Cloud, Code, Coffee, Database, Download, Github, GraduationCap, Layers, Linkedin, Mail, MapPin, Menu, Phone, Rocket, Shield, Star, Target, TrendingUp, Users, X, Zap } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import profileImage from './assets/vishal-verma.jpg';
+import profileImage from './assets/vishal.jpg';
 
 export default function ProfilePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -218,10 +218,17 @@ export default function ProfilePage() {
                 <Mail size={20} />
                 <span className="font-semibold">Hire Me</span>
               </a>
-              <button className="flex items-center gap-2 bg-transparent border-2 border-orange-400 hover:bg-orange-500/20 px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105">
-                <Download size={20} />
-                <span className="font-semibold">Download CV</span>
-              </button>
+              <a
+  href="https://drive.google.com/file/d/1OaxrJ5hjJVrDpllMpocUqhK5zdRWh3C2/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="flex items-center gap-2 bg-transparent border-2 border-orange-400 hover:bg-orange-500/20 px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105">
+    <Download size={20} />
+    <span className="font-semibold">Download CV</span>
+  </button>
+</a>
+
             </div>
 
             <div className="flex justify-center md:justify-start gap-4">
