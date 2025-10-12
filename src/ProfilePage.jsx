@@ -235,7 +235,7 @@ export default function ProfilePage() {
               <a href="https://github.com/vishalv9881" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-orange-500/50">
                 <Github size={24} />
               </a>
-              <a href="linkedin.com/in/vishal-verma-50463928b" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-orange-500/50">
+              <a href="https://www.linkedin.com/in/vishal-verma-50463928b" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-orange-500/50">
                 <Linkedin size={24} />
               </a>
               <a href="mailto:vishalv6391@gmail.com" className="w-12 h-12 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-orange-500/50">
@@ -699,7 +699,7 @@ export default function ProfilePage() {
               <p className="text-gray-300 text-sm">@vishalv9881</p>
             </a>
             
-            <a href="linkedin.com/in/vishal-verma-50463928b" target="_blank" rel="noopener noreferrer" className="bg-slate-900/50 backdrop-blur-md rounded-2xl p-8 border border-orange-500/20 shadow-xl shadow-orange-500/10 hover:border-orange-500/50 transition-all duration-300 transform hover:-translate-y-2 text-center group">
+            <a href="https://www.linkedin.com/in/vishal-verma-50463928b" target="_blank" rel="noopener noreferrer" className="bg-slate-900/50 backdrop-blur-md rounded-2xl p-8 border border-orange-500/20 shadow-xl shadow-orange-500/10 hover:border-orange-500/50 transition-all duration-300 transform hover:-translate-y-2 text-center group">
               <div className="bg-gradient-to-r from-orange-500 to-red-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-lg shadow-orange-500/50">
                 <Linkedin size={32} className="text-white" />
               </div>
