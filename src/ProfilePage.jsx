@@ -108,7 +108,7 @@ export default function ProfilePage() {
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0">
               <span className="text-2xl font-bold bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent">
-                &lt;Vishal.devloper/&gt;
+                &lt;Java Devloper/&gt;
               </span>
             </div>
             
@@ -196,7 +196,7 @@ export default function ProfilePage() {
             <div className="mb-8">
               <p className="text-orange-400 text-lg mb-2 font-semibold">Hello, I'm</p>
               <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 bg-clip-text text-transparent animate-pulse">
-                Vishal Verma
+                Vishal Patel
               </h1>
               <div className="flex items-center gap-3 justify-center md:justify-start mb-4">
                 <div className="h-1 w-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-full"></div>
@@ -235,7 +235,7 @@ export default function ProfilePage() {
               <a href="https://github.com/vishalv9881" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-orange-500/50">
                 <Github size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/vishal-verma-50463928b" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-orange-500/50">
+              <a href="https://linkedin.com/in/vishal-verma-50463928b" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-orange-500/50">
                 <Linkedin size={24} />
               </a>
               <a href="mailto:vishalv6391@gmail.com" className="w-12 h-12 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-orange-500/50">
@@ -699,12 +699,12 @@ export default function ProfilePage() {
               <p className="text-gray-300 text-sm">@vishalv9881</p>
             </a>
             
-            <a href="https://www.linkedin.com/in/vishal-verma-50463928b" target="_blank" rel="noopener noreferrer" className="bg-slate-900/50 backdrop-blur-md rounded-2xl p-8 border border-orange-500/20 shadow-xl shadow-orange-500/10 hover:border-orange-500/50 transition-all duration-300 transform hover:-translate-y-2 text-center group">
+            <a href="https://linkedin.com/in/vishal-verma" target="_blank" rel="noopener noreferrer" className="bg-slate-900/50 backdrop-blur-md rounded-2xl p-8 border border-orange-500/20 shadow-xl shadow-orange-500/10 hover:border-orange-500/50 transition-all duration-300 transform hover:-translate-y-2 text-center group">
               <div className="bg-gradient-to-r from-orange-500 to-red-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-lg shadow-orange-500/50">
                 <Linkedin size={32} className="text-white" />
               </div>
               <h3 className="text-lg font-bold text-orange-400 mb-2">LinkedIn</h3>
-              <p className="text-gray-300 text-sm">Vishal Verma</p>
+              <p className="text-gray-300 text-sm">Vishal Patel</p>
             </a>
           </div>
 
@@ -733,7 +733,7 @@ export default function ProfilePage() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-center md:text-left">
               <p className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent mb-2">
-                Vishal Verma
+                Vishal Patel
               </p>
               <p className="text-gray-400 text-sm">
                 Java Full Stack Developer | Building Digital Excellence
@@ -744,7 +744,7 @@ export default function ProfilePage() {
               <a href="https://github.com/vishalv9881" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all">
                 <Github size={20} />
               </a>
-              <a href="linkedin.com/in/vishal-verma-50463928b" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all">
+              <a href="https://linkedin.com/in/vishal-verma-50463928b" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all">
                 <Linkedin size={20} />
               </a>
               <a href="mailto:vishalv6391@gmail.com" className="w-10 h-10 rounded-full bg-slate-800/50 border border-orange-500/30 flex items-center justify-center text-gray-400 hover:text-orange-400 hover:border-orange-500 transition-all">
@@ -755,7 +755,7 @@ export default function ProfilePage() {
           
           <div className="mt-6 pt-6 border-t border-orange-500/10 text-center">
             <p className="text-gray-400 text-sm">
-              © 2025 Vishal Verma. Crafted with <span className="text-orange-400">❤</span> using React.js & Tailwind CSS
+              © 2025 Vishal Patel. Crafted with <span className="text-orange-400">❤</span> using React.js & Tailwind CSS
             </p>
           </div>
         </div>
