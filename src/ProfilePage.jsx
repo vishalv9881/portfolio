@@ -1,7 +1,6 @@
 import { Award, BookOpen, Briefcase, ChevronDown, Cloud, Code, Coffee, Database, Download, Github, GraduationCap, Layers, Linkedin, Mail, MapPin, Menu, Phone, Rocket, Shield, Star, Target, TrendingUp, Users, X, Zap } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import profileImage from './assets/vishal.jpg';
-
+import profileImage from './assets/vishal.jpeg';
 export default function ProfilePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
@@ -179,7 +178,7 @@ export default function ProfilePage() {
                 {/* Profile image */}
                 <img
                   src={profileImage}
-                  alt="Vishal Verma"
+                  alt="vishal"
                   className="w-full h-full object-cover"
                 />
               </div>
